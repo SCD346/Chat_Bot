@@ -1,0 +1,26 @@
+{
+  "name": "chat_bot",
+  "version": "1.0.0",
+  "description": "Chat_Bot dev project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SCD346/Chat_Bot.git"
+  },
+  "author": "SDoherty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SCD346/Chat_Bot/issues"
+  },
+  "homepage": "https://github.com/SCD346/Chat_Bot#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
