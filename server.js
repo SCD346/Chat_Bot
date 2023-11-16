@@ -21,12 +21,13 @@ app.use(helmet({
   referrerPolicy: { policy: 'same-origin' } // Set to 'same-origin' or other desired policy
 }));
 
+
 app.post('/chat', async (req, res)=> {   
   try {
     const resp = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
         messages: [
-          { role: "user", content: "Hello"}
+          { role: "user", content: "req.body"}
         ]  
     })           
         
